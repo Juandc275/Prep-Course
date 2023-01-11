@@ -180,7 +180,7 @@ function breakStatement(numero) {
 
 let resultados = [];
 for (let i =0 ; i <10; i++)
-{if(num = num + 2){break;}resultados.push(num+i);}return resultados;}
+{if(num = num + 2){break;}resultados.push(num === i);}return resultados;}
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
